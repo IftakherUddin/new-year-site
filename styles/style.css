@@ -1,0 +1,173 @@
+
+
+*{
+  margin: 0;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+/* Universal  and common styles */
+
+
+/* Haeder Styles */
+header {
+    width: 100%;
+    height: 950px;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-area {
+
+    text-align: left;
+    position: absolute;
+    left: 1090px;
+    top: 40%;
+}
+
+header .header-title {
+    font-size: 70px;
+    font-weight: Bold;
+    margin-bottom: 100px
+   
+}
+
+
+header .header-description , .header-title {
+
+    color: #ffffff;
+    text-align: right ;
+    height: 228px;
+    width: 525px;
+   
+
+}
+header .header-description {
+    margin-bottom: 20px
+}
+
+.header-area .primary-btn {
+    font-size: 24px;
+    padding: 20px 50px;
+    border: none;
+   color: #005FAC ;
+   background-color: #ffffff;
+   border-radius: 5px;
+   position: absolute;
+   top: 70%;
+   right: 0px;
+   font-weight: 600;
+}
+/* First Section styles */
+
+.first-section {
+ margin: 200px;
+ height: 723px;
+}
+
+.my-failures {
+  
+display: flex;
+gap: 150px;
+}
+
+.my-failures img {
+    width: 1000px;
+    height: 500px;
+    margin-top: 130px;
+}
+
+.my-failures .my-failure-lists {
+    margin-top: 130px;
+}
+
+ .my-failure-lists .failures-lists-title  {
+
+font-size: 50px;
+font-weight: 700;
+margin-bottom: 50px;
+color: #000000;
+ }
+
+ .my-failure-lists .list-items {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #444343 ;
+ }
+
+ i {
+    color: #16D887;
+    font-weight: 700;
+ }
+
+ /* My Plan  Section Styles */
+
+.my-plans-section {
+    display: flex;
+    gap: 150px;
+    margin-top: 130px ;
+    justify-content: center;
+}
+
+.my-plans-section .plan-heading {
+    font-size: 34px;
+    text-align: center;
+
+}
+.my-plans-section .plan-details {
+    font-size: 24px;
+    text-align: center;
+
+}
+ .plans-title{
+ text-align: center;
+ font-size: 40px;
+}
+
+/* Positive Mindset banner Styles */
+.positive-mindset-banner{
+    background-image: url('../images/gradient1.png') ,
+    url('../images/watch.png') ;
+    width: 80%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 130px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 130px;
+  
+    
+}
+
+.positive-mindset-banner .banner-title{
+
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 459px;
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.primary-btn2 {
+    font-size: 24px;
+    padding: 20px 50px;
+    border: none;
+   color: #005FAC ;
+   background-color: #ffffff;
+   font-weight: 600;
+   border-radius: 10px;
+   position: relative;
+   top: 180px;
+   left: 150px;
+}
+ 
+
+
+
+
+
