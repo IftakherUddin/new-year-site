@@ -69,13 +69,13 @@ header .header-description {
 .my-failures {
   
 display: flex;
-gap: 150px;
+gap: 100px;
 }
 
 .my-failures img {
-    width: 1000px;
-    height: 500px;
-    margin-top: 130px;
+    width: 1400px;
+    height: 700px;
+    
 }
 
 .my-failures .my-failure-lists {
@@ -98,7 +98,8 @@ color: #000000;
 
  i {
     color: #16D887;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 26px;
  }
 
  /* My Plan  Section Styles */
@@ -166,8 +167,125 @@ color: #000000;
    left: 150px;
 }
  
+/* isp section styles */
 
+.isp-section  {
+   display: flex;
+   margin: 130px 200px 130px 200px;
+ 
+}
 
+.isp-section  img {
+    border-radius: 10px;
+    width: 900px;
+}
 
+.isp-div {
+   
+    margin-left: 20px;
+    
+}
+.isp-div .isp-para-title {
+   font-size: 65px;
+   color: #444343;
+}
+.isp-div .isp-para {
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(119, 119, 119);
+}
+
+.isp-div .know-btn {
+   border: none;
+   background-color: #005fac;
+   color: white;
+   font-weight: 600;
+   font-size: 40px;
+   margin-top: 35px;
+   padding: 20px;
+   border-radius: 10px;
+  
+}
+.isp-div .know-btn:hover {
+    background-color: brown;
+}
+.isp-div .know-btn:active {
+background-color: darkgreen;
+}
+
+/* Site Footer styles */
+
+footer {
+    display: flex;
+    background-color: #050505;
+    height: 600px;
+    position: relative;
+}
+
+.footer-description {
+    margin-top: 180px ;
+}
+.footer-descrption-title {
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 200px;
+    margin-bottom: 20px;
+
+}
+
+footer .footer-para {
+    color: lightgray;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    font-weight: normal;
+}
+
+.footer-subscribe {
+
+    margin-top: 180px;
+    margin-left: 450px;
+}
+.footer-icons {
+    display: flex;
+    position: absolute;
+    top: 430px;
+    left: 200px;
+    gap: 20px;
+   
+    
+}
+
+.footer-subscribe input[type="email"] {
+  border: none;
+  outline: none;
+  font-size: 24px;
+  padding: 20px  38px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #050505;
+  border: 1px solid lightgrey;
+}
+.footer-subscribe input[type="email"]:hover{
+    border: 1px solid cyan;
+}
+
+.footer-subscribe input[type="button"] {
+    color: #ffffff;
+    background-color: #005fac ;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 15px 50px;
+}
+.footer-subscribe input[type="button"]:hover {
+    background-color: brown;
+} 
+.footer-subscribe .footer-subscribe-title {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
 
